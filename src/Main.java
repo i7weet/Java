@@ -5,10 +5,8 @@ public class Main {
         Scanner in = new Scanner(System.in);
         String input = in.nextLine();
         String[] parts = input.split(" ");
-        int n = Integer.parseInt(parts[0]);
-        int a = Integer.parseInt(parts[1]);
-        int b = Integer.parseInt(parts[2]);
-        int result = n * a * b * 2;
-        System.out.println(result);
+        int first = Integer.parseInt(parts[0]);
+        int second = Integer.parseInt(parts[1]);
+        System.out.println(first + second);
     }
 }
